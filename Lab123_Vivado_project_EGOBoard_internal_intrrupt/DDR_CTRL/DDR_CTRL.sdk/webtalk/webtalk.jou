@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4.1 (64-bit)
+# SW Build 2117270 on Tue Jan 30 15:32:00 MST 2018
+# 
+# Start of session at: Mon Jun  3 16:18:38 2019
+# Process ID: 12276
+# Current directory: I:/SoC_class/SoC_Class_example_try/DMA_DDR_CTRL_EGO_internal_intrrupt/DDR_CTRL/DDR_CTRL.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: I:/SoC_class/SoC_Class_example_try/DMA_DDR_CTRL_EGO_internal_intrrupt/DDR_CTRL/DDR_CTRL.sdk/webtalk/webtalk.log
+# Journal file: I:/SoC_class/SoC_Class_example_try/DMA_DDR_CTRL_EGO_internal_intrrupt/DDR_CTRL/DDR_CTRL.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

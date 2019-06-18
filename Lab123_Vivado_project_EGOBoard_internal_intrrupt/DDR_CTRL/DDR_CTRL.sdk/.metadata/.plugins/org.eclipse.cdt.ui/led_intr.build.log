@@ -1,0 +1,8 @@
+16:21:30 **** Incremental Build of configuration Debug for project led_intr ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+16:21:30 Build Finished (took 226ms)
+
