@@ -1,0 +1,5 @@
+image : {
+	[bootloader]fsbl.elf
+	System_wrapper.bit
+	u-boot.elf
+}

@@ -1,0 +1,125 @@
+ifconfig eth0 192.168.1.5 netmask 255.255.255.0
+route add default gw 192.168.1.1
+ifconfig lo 127.0.0.1
+route add default gw 192.168.1.1 netmask 255.255.255.0
+
+mount -a
+mkdir /lib/modules/$(uname -r)
+cd /lib/modules/4.9.0-xilinx-00027-g9c2e29b
+cd /lib/modules/4.19.0-xilinx-54851-g9c71c6e
+cp /mnt/ip.ko .
+insmod ip.ko
+cd ..
+cd ..
+cd ..
+cd ..
+
+mknod /dev/IP-Driver c 245 0
+cd mnt
+date --set="2018-05-12 21:59"
+
+./a.out
+
+./read.out
+
+./write.out
+
+./rd.out
+
+./we.out
+
+./rd_dg.out
+
+./we_dg.out
+
+
+
+
+
+
+touch /etc/resolv.conf
+vi /etc/resolv.conf
+ssnameserver 168.95.1.1
+
+esc
+Shift + :
+wq
+
+cd home
+wget http://www.cnblogs.com/nufangrensheng/p/4034936.html
+
+
+
+
+mount -a
+cd mnt
+./a.out
+
+
+
+
+chmod 777 a.out
+
+
+
+-------------------------------------------------------------------------------------
+
+ifconfig eth0 192.168.178.140 netmask 255.255.255.0
+route add default gw 192.168.178.254
+ifconfig lo 127.0.0.1
+route add default gw 192.168.178.254 netmask 255.255.255.0
+
+
+touch /etc/resolv.conf
+vi /etc/resolv.conf
+ssnameserver 168.95.1.1
+
+esc
+Shift + :
+wq
+
+cd home
+wget http://www.cnblogs.com/nufangrensheng/p/4034936.html
+
+
+
+
+mount -a
+cd mnt
+./a.out
+---------------------------------------------------------------------------------------
+
+ifconfig eth0 192.168.1.5 netmask 255.255.255.0
+route add default gw 192.168.1.1
+ifconfig lo 127.0.0.1
+route add default gw 192.168.1.1 netmask 255.255.255.0
+
+mount -a
+mkdir /lib/modules/$(uname -r)
+cd /lib/modules/4.9.0-xilinx-00027-g9c2e29b
+cp /mnt/ip_Bram.ko .
+insmod ip_Bram.ko
+cd ..
+cd ..
+cd ..
+cd ..
+
+mknod /dev/IP-Driver c 245 0
+cd mnt
+date --set="2018-06-27 21:59"
+
+./a.out 10
+
+
+
+for i in `seq 1 100`; 
+do 
+./a.out 1
+done
+
+
+./socket_client_break.out 10
+
+./socket_client_series.out 10
+
+./test_socket_send_720x480_picture.out

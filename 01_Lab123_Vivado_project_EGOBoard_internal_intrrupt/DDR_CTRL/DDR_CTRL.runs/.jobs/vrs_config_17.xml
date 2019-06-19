@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="System_myip_1_0_0_synth_1" LaunchDir="I:/SoC_class/SoC_Class_example_try/DMA_DDR_CTRL_EGO_internal_intrrupt/DDR_CTRL/DDR_CTRL.runs/System_myip_1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

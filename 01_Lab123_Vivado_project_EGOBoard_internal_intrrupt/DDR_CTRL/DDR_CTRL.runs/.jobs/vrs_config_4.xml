@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="System_processing_system7_0_0_synth_1" LaunchDir="D:/FPGA_project/vivado_2017_4/DMA_DDR_CTRL/DDR_CTRL/DDR_CTRL.runs/System_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="System_myip_1_0_1_synth_1" LaunchDir="D:/FPGA_project/vivado_2017_4/DMA_DDR_CTRL/DDR_CTRL/DDR_CTRL.runs/System_myip_1_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

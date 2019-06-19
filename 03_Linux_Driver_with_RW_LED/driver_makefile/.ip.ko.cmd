@@ -1,0 +1,1 @@
+cmd_/home/user/Desktop/driver_test/SoC_Class/driver_makefile/ip.ko := arm-xilinx-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/user/Desktop/driver_test/SoC_Class/driver_makefile/ip.ko /home/user/Desktop/driver_test/SoC_Class/driver_makefile/ip.o /home/user/Desktop/driver_test/SoC_Class/driver_makefile/ip.mod.o ;  true

@@ -1,0 +1,75 @@
+查看掛載裝置
+df -h
+
+掛載所有裝置
+mount -a
+
+卸載所有裝置
+umount -a
+
+
+安裝device moudle :
+
+mkdir /lib/modules/$(uname -r)
+
+cd /lib/modules
+
+ls
+3.6.0                        4.9.0-xilinx-00027-g9c2e29b
+
+cd 4.9.0-xilinx-00027-g9c2e29b   (  cd /lib/modules/4.9.0-xilinx-00027-g9c2e29b   )
+
+
+cp /mnt/hello_zed.ko .
+
+insmod hello_zed.ko             
+
+rmmod hello_zed
+
+
+
+cp /mnt/ip.ko .
+
+insmod ip.ko             (   modprobe ip   )直接載入該模組與其相依屬性的模組
+rmmod ip
+
+./write.out
+./read.out
+
+
+-------------------------------------------------------
+mount -a
+mkdir /lib/modules/$(uname -r)
+cd /lib/modules/4.9.0-xilinx-00027-g9c2e29b
+cp /mnt/ip.ko .
+insmod ip.ko
+cd ..
+cd ..
+cd ..
+cd ..
+
+mknod /dev/IP-Driver c 245 0
+cd mnt
+./write.out
+
+./read.out
+
+
+cat proc/interrupts
+
+cd dev
+ls
+
+rmmod ip
+insmod ip.ko
+
+-------------------------------------------------------
+
+印出字元裝置與major number
+cat proc/devices
+
+印出中斷裝置
+cat proc/interrupts
+
+註冊完成
+/sys/class

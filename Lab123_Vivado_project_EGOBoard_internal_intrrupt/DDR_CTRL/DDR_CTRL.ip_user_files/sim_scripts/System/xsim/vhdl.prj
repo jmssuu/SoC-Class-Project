@@ -1,8 +1,0 @@
-vhdl xil_defaultlib  \
-"../../../bd/System/ip/System_rst_ps7_0_100M_0/sim/System_rst_ps7_0_100M_0.vhd" \
-"../../../bd/System/sim/System.vhd" \
-"../../../bd/System/ipshared/5111/hdl/myip_1_v1_0_S00_AXI.vhd" \
-"../../../bd/System/ipshared/5111/hdl/myip_1_v1_0.vhd" \
-"../../../bd/System/ip/System_myip_1_0_0/sim/System_myip_1_0_0.vhd" \
-
-nosort

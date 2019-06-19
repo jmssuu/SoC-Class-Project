@@ -1,0 +1,1 @@
+cmd_/home/socuser/Desktop/driver_test/Ch0_led_test/driver_makefile/ip.ko := armr5-none-eabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/socuser/Desktop/driver_test/Ch0_led_test/driver_makefile/ip.ko /home/socuser/Desktop/driver_test/Ch0_led_test/driver_makefile/ip.o /home/socuser/Desktop/driver_test/Ch0_led_test/driver_makefile/ip.mod.o ;  true
